@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using FMODUnity;
 public enum PlayerClass
 {
     Commando,
@@ -55,6 +56,9 @@ public class PlayerManager : MonoBehaviour
     public float yaw = 1.0f;
     public float pitch = 1.0f;
 
+    //Sounds
+    public StudioEventEmitter footsteps;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +87,8 @@ public class PlayerManager : MonoBehaviour
         SelectPrimary();
     }
 
+
+    //weapon select
     public void SelectPrimary()
     {
         foreach (var weapon in weapons[(int)currentPlayerClass])
@@ -100,9 +106,21 @@ public class PlayerManager : MonoBehaviour
         currentActiveWeapon = weapons[(int)currentPlayerClass][(int)Weapon.Secondary];
     }
 
+
+
+    bool playFootsteps = true;
+    //movement
     public void OnMove(InputAction.CallbackContext ctx)
     {
         moveVec = ctx.ReadValue<Vector2>();
+       
+    }
+    IEnumerator FootstepSounds()
+    {
+        playFootsteps = false;
+        footsteps.Play();
+        yield return new WaitForSeconds(0.25f);
+        playFootsteps = true;
     }
 
     public bool canJump = true;
@@ -143,8 +161,10 @@ public class PlayerManager : MonoBehaviour
             lookAt.transform.localPosition = new Vector3(lookAt.transform.localPosition.x, 10.0f, lookAt.transform.localPosition.z);
 
         pCamera.transform.LookAt(lookAt.transform);
-        //pCamera.transform.RotateAround(pCamera.transform.position,pCamera.transform.up,mouseVec.x / rotationSpeed);
-        //pCamera.transform.RotateAround(pCamera.transform.position,pCamera.transform.right,mouseVec.y / rotationSpeed);
+
+
+         if (moveVec.magnitude > 0.0f && canJump && playFootsteps)
+            StartCoroutine("FootstepSounds");
     }
 
     private void FixedUpdate()

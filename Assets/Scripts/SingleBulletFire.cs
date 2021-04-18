@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using FMODUnity;
 public class SingleBulletFire : MonoBehaviour
 {
 
@@ -11,6 +11,9 @@ public class SingleBulletFire : MonoBehaviour
     public Transform bulletStartPosition;
     public List<Transform> bulletSpreadStartPositions = new List<Transform>();
     int bulletKey = 0;
+
+    //Sounds
+    public StudioEventEmitter shootSound;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +46,7 @@ public class SingleBulletFire : MonoBehaviour
     {
         if (!gameObject.activeSelf || !canFire)
             return;
+        shootSound.Play();
         if (gunInfo.firesInSpread)
         {
             //NOTE: negative on the forward vec cause the guns are all backwards
