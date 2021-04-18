@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7c13a16566832394da5a13cafb56accf
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: VIPER NORA
+  fontNames:
+  - VIPER NORA
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d1ef71d2732ecc849a5b3b8b80d1648e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

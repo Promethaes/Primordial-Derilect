@@ -1,0 +1,3212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9200590381017418954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Robo Gunner/22 spotted
+  m_EditorClassIdentifier: 
+  Path: event:/Robo Gunner/22 spotted
+  guid: 4d1bea032543b24291fbedebebaa68b1
+  Banks:
+  - {fileID: -4454487748222754492}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1036
+--- !u!114 &-9031810514562586333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Raider/25 death
+  m_EditorClassIdentifier: 
+  Path: event:/Raider/25 death
+  guid: e5ed588e51732c46b133893ce4703728
+  Banks:
+  - {fileID: 8174308653994852470}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 875
+--- !u!114 &-9011121358169999224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ancient/inCombat
+  m_EditorClassIdentifier: 
+  Name: inCombat
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8787678682122446380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Raider/22 spotted
+  m_EditorClassIdentifier: 
+  Path: event:/Raider/22 spotted
+  guid: 773fb5f038f4384bb4bd01eebb76c0db
+  Banks:
+  - {fileID: 8174308653994852470}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-8656615405657479379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Demolitionist.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Demolitionist.bank
+  Name: Demolitionist
+  StudioPath: bank:/Demolitionist
+  lastModified: 637214571460253558
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8457722314116984111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637214571461069070
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 6702
+  Exists: 1
+--- !u!114 &-8086725333144640654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/08 seeing sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/08 seeing sednium
+  guid: 8538d242ce3d1b429703e44739ed896e
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-8006546763690080318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/07 collect ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/07 collect ammo
+  guid: c69c389123550548aea6be0f32ede7e7
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1277
+--- !u!114 &-7824180265406460773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Pickup
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Pickup
+  guid: c5649f87a158f2479bcdebd95194564a
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 100
+--- !u!114 &-7708037010608820151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/13 chest
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/13 chest
+  guid: 1f90052f29dfd74785646bdb93fab379
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1021
+--- !u!114 &-7530962016461589950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Robo Gunner/23 hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Robo Gunner/23 hurt
+  guid: 1479f36c158b9148b7860aa055b0fb1a
+  Banks:
+  - {fileID: -4454487748222754492}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7396135881885103830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Teleport
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Teleport
+  guid: 618eb2629ab6464d8355832f6a2b610a
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-7026108070010451692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Low Health
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Low Health
+  guid: 88b9b5b6dcd8b24d84c458c20b2162a9
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 266
+--- !u!114 &-6999801495351930498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Derelict/levelClear
+  m_EditorClassIdentifier: 
+  Name: levelClear
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6925221902838506645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/16 low health
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/16 low health
+  guid: ed2ee810cdb03c44ab3d56317d7736b4
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4939
+--- !u!114 &-6799310662008427132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Robo Gunner/25 death
+  m_EditorClassIdentifier: 
+  Path: event:/Robo Gunner/25 death
+  guid: 4953c5d29d933c4eb232004629786eaf
+  Banks:
+  - {fileID: -4454487748222754492}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 371
+--- !u!114 &-6792121378672550545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637214571461049235
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6665909608670906215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/12 secret
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/12 secret
+  guid: edc5095153d87b48b3b4d14f83163c1e
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1044
+--- !u!114 &-6394065504619473259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/10 getting hit
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/10 getting hit
+  guid: 129d777a484ec3458a245585a8ae5a1a
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1791
+--- !u!114 &-6214409982839876828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Assault.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Assault.bank
+  Name: Assault
+  StudioPath: bank:/Assault
+  lastModified: 637214571458264597
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6152716304868806846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/05 collect health
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/05 collect health
+  guid: eea8e9a13e399042a81e50fc51a3949e
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1225
+--- !u!114 &-6143916230949343490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/06 seeing ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/06 seeing ammo
+  guid: e7ed26a24f20e743ab03d2b4cf7177bb
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 859
+--- !u!114 &-6024625104394829301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/08 seeing sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/08 seeing sednium
+  guid: f618fdc21598404d8e5fe10c3f87ca9a
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4500
+--- !u!114 &-6005301458321676102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/09 collect sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/09 collect sednium
+  guid: f4404a24cc0b0b44a64335787f0fd97d
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1402
+--- !u!114 &-5910193255268307818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/05 collect health
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/05 collect health
+  guid: 128572a91467c44db3d2b86c60c22c32
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-5725749747990628401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Ancient
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Ancient
+  guid: 4f953de0d376b24f9bc328fa5323070a
+  Banks:
+  - {fileID: 7522978906528956550}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5598375555296714619}
+  - {fileID: 7675305134025192277}
+  - {fileID: -9011121358169999224}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 101164
+--- !u!114 &-5586209465403732807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/15 clear
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/15 clear
+  guid: b5a4d613f21cc4418a2724ebdcbccf8c
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1439
+--- !u!114 &-5392922036722516496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Jump-Pad
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Jump-Pad
+  guid: ea33db5a2ddb7a48a421564d6a1a7006
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-5216280274951800755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/04 seeing health
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/04 seeing health
+  guid: a21d0f64fe2f6b40b9f5d110b45c64d9
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1161
+--- !u!114 &-5091201882376279167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ghoul/23 hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Ghoul/23 hurt
+  guid: 562a997458029b40a02f3155326745c4
+  Banks:
+  - {fileID: 3794124511075940568}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 557
+--- !u!114 &-5046581422806908514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Unyielding/inCombat
+  m_EditorClassIdentifier: 
+  Name: inCombat
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4729441616514222028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/Robot
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/Robot
+  guid: 497b2500b5c9854d9aa2c96883548b76
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 380
+--- !u!114 &-4658251077901144123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/GrenadeLauncherExplosivo
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/GrenadeLauncherExplosivo
+  guid: 0bfc9670d0f4d543b36e04d463ae8ca4
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1521
+--- !u!114 &-4455452021238157122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Scout.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Scout.bank
+  Name: Scout
+  StudioPath: bank:/Scout
+  lastModified: 637214571462751946
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4454487748222754492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Robo Gunner.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Robo Gunner.bank
+  Name: Robo Gunner
+  StudioPath: bank:/Robo Gunner
+  lastModified: 637214571462092256
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4273324114001848321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Unyielding/levelClear
+  m_EditorClassIdentifier: 
+  Name: levelClear
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4119508628838200743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/11 getting killed
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/11 getting killed
+  guid: 9d449e6bd04e7d45b36710d4c4e2ed22
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1323
+--- !u!114 &-4102038411610631510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/GhoulSwipe
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/GhoulSwipe
+  guid: 89903d068a738b40a07b5e2ec02bc642
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 414
+--- !u!114 &-3911993373529055815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/10 getting hit
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/10 getting hit
+  guid: 722cfde426b1cf4780bd4c80bbf64317
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &-3896286613358561345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/14 boss new phase
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/14 boss new phase
+  guid: 8d9e3702d0fae94fb5c3e53e27534f4e
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2899
+--- !u!114 &-3857921490401689848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Derelict
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Derelict
+  guid: 0d77c4022c7f8645b83a4d897df9dfba
+  Banks:
+  - {fileID: 7522978906528956550}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6999801495351930498}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 48515
+--- !u!114 &-3845530348604813802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/04 seeing health
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/04 seeing health
+  guid: 75a96136a125e64fa75eb85838eca1fc
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 870
+--- !u!114 &-3734873712348795885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/MarksmanRifle
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/MarksmanRifle
+  guid: 8fc1a35a296f6e4aa8bc8f6686cf9b7a
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1664
+--- !u!114 &-3713217104359976412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/14 boss new phase
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/14 boss new phase
+  guid: dda800d8744d3143b4238294ef4a39e1
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1428
+--- !u!114 &-3485847904355615509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/11 getting killed
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/11 getting killed
+  guid: eced8165a415e3418c60aca9f0d26264
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &-3234632973899000190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/Pistol
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/Pistol
+  guid: 7d99eb19e36684418471262d9599921f
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 380
+--- !u!114 &-3162474392449931194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Footsteps
+  guid: 18ee4a00e8caf04faae1fa6bec64bbff
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 592
+--- !u!114 &-2839385038131862949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/12 secret
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/12 secret
+  guid: f15178c37999d146bf37741ca9df8ef6
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1803
+--- !u!114 &-2721893717579201828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/06 seeing ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/06 seeing ammo
+  guid: 1d52d6888a32034cbb3e42dc3061d8a8
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2546
+--- !u!114 &-2656748625968638263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Unyielding/isPaused
+  m_EditorClassIdentifier: 
+  Name: isPaused
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2537794816989779033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/07 collect ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/07 collect ammo
+  guid: 3b7584ed35e0434695bd20da3f24254a
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1096
+--- !u!114 &-2306729115481471955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sentry/22 spotted
+  m_EditorClassIdentifier: 
+  Path: event:/Sentry/22 spotted
+  guid: 039fd34ac2490a43a888bef3e10bfac5
+  Banks:
+  - {fileID: 5428130965988135522}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1036
+--- !u!114 &-2234227535962288518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/05 collect health
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/05 collect health
+  guid: 2d23622b5f2df64ca880b42ff1eb996e
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 708
+--- !u!114 &-2234219068448725442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/02 seeing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/02 seeing boss
+  guid: 47213b454ab97a4d85617203e8960e38
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3076
+--- !u!114 &-1855233972316861891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/AutoRifle
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/AutoRifle
+  guid: c6acfb74e4ee3b46b76772ad49b42cd2
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 380
+--- !u!114 &-1744028755027759860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/01 killing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/01 killing enemy
+  guid: 991010e3f040f94bb4c88d3777b4ee86
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1486
+--- !u!114 &-1501933537693340679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/11 getting killed
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/11 getting killed
+  guid: 794d982da89b504bacb7dc099c33e047
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1486
+--- !u!114 &-1475930260908592395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/07 collect ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/07 collect ammo
+  guid: 823a07ad8a6c4240b0b2dc6e0dfb54ab
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 847
+--- !u!114 &-1441989808291150442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Unyielding
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Unyielding
+  guid: ce9d4fe7807ec84b8de93f42ed91f857
+  Banks:
+  - {fileID: 7522978906528956550}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2656748625968638263}
+  - {fileID: -4273324114001848321}
+  - {fileID: -5046581422806908514}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 16003
+--- !u!114 &-1435714186412991758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Guns.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Guns.bank
+  Name: Guns
+  StudioPath: bank:/Guns
+  lastModified: 637214571461009554
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1338210480802175143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/17 low ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/17 low ammo
+  guid: f0080fc1deb37248a521651433988fca
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1230
+--- !u!114 &-1334535172904757200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/02 seeing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/02 seeing boss
+  guid: deebf552ffc06a41978a6aaeac6d3d96
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2414
+--- !u!114 &-1308465277604305646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/06 seeing ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/06 seeing ammo
+  guid: 80fe80b1d390204c9779cecbb3672e43
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 847
+--- !u!114 &-1073895382226116741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/00 seeing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/00 seeing enemy
+  guid: 02a5aea863b23243866a93603120ca17
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4748
+--- !u!114 &-847875464083802207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Shield Recharge
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Shield Recharge
+  guid: ed9869242b5b9f41b3e552b7457a9705
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1750
+--- !u!114 &-550442597096120043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/03 killing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/03 killing boss
+  guid: 1e8b756ab530cc4dbf94b84c7fdc9c52
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1381
+--- !u!114 &-428952905754187456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/01 killing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/01 killing enemy
+  guid: 9a105d353ba9e94e9c353862e83ff658
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &-421760360626717938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shop/22 pain
+  m_EditorClassIdentifier: 
+  Path: event:/Shop/22 pain
+  guid: 05482b7e5d6a864ba11b09ed1a2a9beb
+  Banks:
+  - {fileID: 8318046013009315746}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1340
+--- !u!114 &-287935977395494011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/GrenadeLauncherThump
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/GrenadeLauncherThump
+  guid: 2cf607ea3fa5784d8bc6121908f2fd3b
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 184
+--- !u!114 &-256157599258009896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Effects.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Effects.bank
+  Name: Effects
+  StudioPath: bank:/Effects
+  lastModified: 637214571460516432
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-222639572893270657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/02 seeing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/02 seeing boss
+  guid: 8faf14d509e18448ab6c7b54b9f820d5
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-55774320961247862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/17 low ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/17 low ammo
+  guid: 9d2cfb7dece9a54da87ea331a98a5b69
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1195
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -8457722314116984111}
+  - {fileID: -6214409982839876828}
+  - {fileID: 2188533568292140322}
+  - {fileID: -8656615405657479379}
+  - {fileID: -256157599258009896}
+  - {fileID: 3794124511075940568}
+  - {fileID: -1435714186412991758}
+  - {fileID: -6792121378672550545}
+  - {fileID: 7522978906528956550}
+  - {fileID: 8174308653994852470}
+  - {fileID: -4454487748222754492}
+  - {fileID: -4455452021238157122}
+  - {fileID: 5428130965988135522}
+  - {fileID: 8318046013009315746}
+  EditorEvents:
+  - {fileID: -6394065504619473259}
+  - {fileID: -2721893717579201828}
+  - {fileID: 3568571576608149973}
+  - {fileID: -2537794816989779033}
+  - {fileID: -2234219068448725442}
+  - {fileID: 347197382993490225}
+  - {fileID: 1440945791988118727}
+  - {fileID: -3896286613358561345}
+  - {fileID: 5160148985649922681}
+  - {fileID: 2553897327519310379}
+  - {fileID: 7439029650043011386}
+  - {fileID: 6504148406161804035}
+  - {fileID: 2633603045799657978}
+  - {fileID: -6925221902838506645}
+  - {fileID: -6152716304868806846}
+  - {fileID: -2839385038131862949}
+  - {fileID: -6005301458321676102}
+  - {fileID: 4901974883381433249}
+  - {fileID: 7781588377282123312}
+  - {fileID: -7708037010608820151}
+  - {fileID: 8438865421734932203}
+  - {fileID: 9063518460516596070}
+  - {fileID: 3975095968892683992}
+  - {fileID: 3202518106967780119}
+  - {fileID: 189509688039598308}
+  - {fileID: -1501933537693340679}
+  - {fileID: 215974542759505969}
+  - {fileID: -1744028755027759860}
+  - {fileID: -55774320961247862}
+  - {fileID: -5216280274951800755}
+  - {fileID: -5586209465403732807}
+  - {fileID: 4085589275871375859}
+  - {fileID: -8006546763690080318}
+  - {fileID: -1334535172904757200}
+  - {fileID: -6143916230949343490}
+  - {fileID: 3988469547919113858}
+  - {fileID: -1073895382226116741}
+  - {fileID: -5910193255268307818}
+  - {fileID: 6493955783090580798}
+  - {fileID: 1913328946996007790}
+  - {fileID: 4828590123552382135}
+  - {fileID: -3911993373529055815}
+  - {fileID: 144452202396080368}
+  - {fileID: -222639572893270657}
+  - {fileID: 6766117135350185969}
+  - {fileID: 2172331048540725650}
+  - {fileID: -428952905754187456}
+  - {fileID: 1748442269478623548}
+  - {fileID: 1355673215341048708}
+  - {fileID: 2452550398688034244}
+  - {fileID: 8190982251283114761}
+  - {fileID: 6419032629094225358}
+  - {fileID: -3485847904355615509}
+  - {fileID: -6024625104394829301}
+  - {fileID: -3162474392449931194}
+  - {fileID: -7396135881885103830}
+  - {fileID: -7026108070010451692}
+  - {fileID: -7824180265406460773}
+  - {fileID: 211088822058885217}
+  - {fileID: -5392922036722516496}
+  - {fileID: -847875464083802207}
+  - {fileID: 7182426782550818609}
+  - {fileID: 9204087941704223504}
+  - {fileID: 3084245978529528336}
+  - {fileID: -5091201882376279167}
+  - {fileID: 1391831692002555016}
+  - {fileID: 3433406819724055460}
+  - {fileID: -4658251077901144123}
+  - {fileID: 6664591289392841027}
+  - {fileID: -287935977395494011}
+  - {fileID: -4729441616514222028}
+  - {fileID: 3261757314602371441}
+  - {fileID: -3234632973899000190}
+  - {fileID: -4102038411610631510}
+  - {fileID: -3734873712348795885}
+  - {fileID: -1855233972316861891}
+  - {fileID: -3857921490401689848}
+  - {fileID: -5725749747990628401}
+  - {fileID: -1441989808291150442}
+  - {fileID: 4220441373394536902}
+  - {fileID: 609885398793717863}
+  - {fileID: -8787678682122446380}
+  - {fileID: 7940009205561811131}
+  - {fileID: -9031810514562586333}
+  - {fileID: -7530962016461589950}
+  - {fileID: 118586562548363255}
+  - {fileID: -6799310662008427132}
+  - {fileID: -9200590381017418954}
+  - {fileID: 1606782050828459899}
+  - {fileID: -550442597096120043}
+  - {fileID: -2234227535962288518}
+  - {fileID: 2279709176069228162}
+  - {fileID: -3845530348604813802}
+  - {fileID: -1308465277604305646}
+  - {fileID: -1475930260908592395}
+  - {fileID: -8086725333144640654}
+  - {fileID: 6848324854368206438}
+  - {fileID: -4119508628838200743}
+  - {fileID: 7380673201896951928}
+  - {fileID: 7883315414923910592}
+  - {fileID: -3713217104359976412}
+  - {fileID: 3834114523686610824}
+  - {fileID: -6665909608670906215}
+  - {fileID: -1338210480802175143}
+  - {fileID: 6121166145711373067}
+  - {fileID: 6005426231448479583}
+  - {fileID: -2306729115481471955}
+  - {fileID: 3418608637638571193}
+  - {fileID: 915006520397880400}
+  - {fileID: 4299853839367654698}
+  - {fileID: -421760360626717938}
+  - {fileID: 3606814071448870730}
+  - {fileID: 143744896555958269}
+  - {fileID: 5760749584799001071}
+  - {fileID: 6285188624098496207}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6792121378672550545}
+  StringsBanks:
+  - {fileID: -8457722314116984111}
+  stringsBankWriteTime: 637214571461069070
+  cacheVersion: 6
+--- !u!114 &118586562548363255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Robo Gunner/24 player death
+  m_EditorClassIdentifier: 
+  Path: event:/Robo Gunner/24 player death
+  guid: 3c2f2ef0b0582441bc8063a325f33afa
+  Banks:
+  - {fileID: -4454487748222754492}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1265
+--- !u!114 &143744896555958269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shop/18 greeting
+  m_EditorClassIdentifier: 
+  Path: event:/Shop/18 greeting
+  guid: 2b46e612c32c694283b40bc0b3f31a24
+  Banks:
+  - {fileID: 8318046013009315746}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1105
+--- !u!114 &144452202396080368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/06 seeing ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/06 seeing ammo
+  guid: 89c5c2e1e14f6c43b2a707911743321a
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3500
+--- !u!114 &189509688039598308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/08 seeing sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/08 seeing sednium
+  guid: 37df14cfc0a13c429ea12587748a5f09
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1068
+--- !u!114 &211088822058885217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/uiClick
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/uiClick
+  guid: dd8ebbb92abdcc4f9c724b22bc987964
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 252
+--- !u!114 &215974542759505969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/05 collect health
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/05 collect health
+  guid: 8d2becf826e0d04fb418bea63079cb59
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1126
+--- !u!114 &347197382993490225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/11 getting killed
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/11 getting killed
+  guid: 528d9de041730d49b6976095e6917012
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1968
+--- !u!114 &609885398793717863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Raider/23 hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Raider/23 hurt
+  guid: 6ed1834cf9a4294c983cfe5c829b69ef
+  Banks:
+  - {fileID: 8174308653994852470}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &915006520397880400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sentry/25 death
+  m_EditorClassIdentifier: 
+  Path: event:/Sentry/25 death
+  guid: b0cac7379611784cb3bb197f236c51eb
+  Banks:
+  - {fileID: 5428130965988135522}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 371
+--- !u!114 &1355673215341048708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/13 chest
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/13 chest
+  guid: d1217fcfc5955f4f885802989f021840
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2500
+--- !u!114 &1391831692002555016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ghoul/22 spotted
+  m_EditorClassIdentifier: 
+  Path: event:/Ghoul/22 spotted
+  guid: 640630387e0c05478f0dd6caeb227a1e
+  Banks:
+  - {fileID: 3794124511075940568}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1962
+--- !u!114 &1440945791988118727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/04 seeing health
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/04 seeing health
+  guid: 888a916e62bfd14ba64f4aec545217ed
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1638
+--- !u!114 &1606782050828459899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/16 low health
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/16 low health
+  guid: 0a07c015593d0545a4585914e7a0c1e4
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1369
+--- !u!114 &1748442269478623548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/03 killing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/03 killing boss
+  guid: c3880109cc8f714e80f59dba5d833674
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &1913328946996007790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/04 seeing health
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/04 seeing health
+  guid: 54aad165f1015d4d83319585b4728216
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3500
+--- !u!114 &2172331048540725650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/14 boss new phase
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/14 boss new phase
+  guid: 94b1defbd217da458bf547ef1c1d81b6
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &2188533568292140322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Commando.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Commando.bank
+  Name: Commando
+  StudioPath: bank:/Commando
+  lastModified: 637214571459360759
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2279709176069228162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/09 collect sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/09 collect sednium
+  guid: 73250d3169554745853500d429c901e8
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2452550398688034244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/07 collect ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/07 collect ammo
+  guid: d260a402020dee499097db1398a5db54
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &2553897327519310379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/13 chest
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/13 chest
+  guid: c77c9c301c79c5489af5cae12aef3e17
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2322
+--- !u!114 &2633603045799657978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/15 clear
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/15 clear
+  guid: dd76ed8e6ab19e43bc5824ff6722bd4b
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2204
+--- !u!114 &3084245978529528336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ghoul/25 death
+  m_EditorClassIdentifier: 
+  Path: event:/Ghoul/25 death
+  guid: 3aabefef4ba5de49b6e2445a916c7846
+  Banks:
+  - {fileID: 3794124511075940568}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1102
+--- !u!114 &3202518106967780119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/10 getting hit
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/10 getting hit
+  guid: 354b24d8ed6693498deadc2b1c7a5a6e
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1800
+--- !u!114 &3261757314602371441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/OutOfAmmo
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/OutOfAmmo
+  guid: 61de18005e674642ab1530e8db4a0e63
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 125
+--- !u!114 &3418608637638571193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sentry/23 hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Sentry/23 hurt
+  guid: 2ead81f9ab44cc459a0938907374a5ea
+  Banks:
+  - {fileID: 5428130965988135522}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3433406819724055460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ghoul/24 player death
+  m_EditorClassIdentifier: 
+  Path: event:/Ghoul/24 player death
+  guid: b1bd3b6244d1204189d7fa2cc344399c
+  Banks:
+  - {fileID: 3794124511075940568}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3568571576608149973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/08 seeing sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/08 seeing sednium
+  guid: 34c0dba93a2e7543896a2dc5f08ceadd
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2298
+--- !u!114 &3606814071448870730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shop/21 farewell
+  m_EditorClassIdentifier: 
+  Path: event:/Shop/21 farewell
+  guid: 2801f0b118159c4dbf109459295accea
+  Banks:
+  - {fileID: 8318046013009315746}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2072
+--- !u!114 &3794124511075940568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ghoul.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Ghoul.bank
+  Name: Ghoul
+  StudioPath: bank:/Ghoul
+  lastModified: 637214571460764763
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3834114523686610824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/10 getting hit
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/10 getting hit
+  guid: e9965d6737734d45a2e859c97ff3a369
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1520
+--- !u!114 &3975095968892683992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/03 killing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/03 killing boss
+  guid: 2d5ace7f5c595849a829de8735d0d54e
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1184
+--- !u!114 &3988469547919113858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/14 boss new phase
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/14 boss new phase
+  guid: ed30d51aeba207408b63d16deddb4f43
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1381
+--- !u!114 &4085589275871375859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/16 low health
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/16 low health
+  guid: c64e21e1c3c62a4cb1e483320be9179e
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1393
+--- !u!114 &4220441373394536902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/ST04
+  m_EditorClassIdentifier: 
+  Path: event:/Music/ST04
+  guid: db4aa66b529d354180190b41ed6dfb4c
+  Banks:
+  - {fileID: 7522978906528956550}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4299853839367654698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sentry/24 player death
+  m_EditorClassIdentifier: 
+  Path: event:/Sentry/24 player death
+  guid: cedec758e69d1948ab800d444f171e4b
+  Banks:
+  - {fileID: 5428130965988135522}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1265
+--- !u!114 &4828590123552382135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/09 collect sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/09 collect sednium
+  guid: 5591980c8405fb4da43915be9acb2fa5
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &4901974883381433249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/17 low ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/17 low ammo
+  guid: f832c473e74c914ca88a26a6b887457d
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3053
+--- !u!114 &5160148985649922681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/01 killing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/01 killing enemy
+  guid: 97fefce3886777438b3f6f762487af74
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2675
+--- !u!114 &5428130965988135522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Sentry.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Sentry.bank
+  Name: Sentry
+  StudioPath: bank:/Sentry
+  lastModified: 637214571462980100
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5598375555296714619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ancient/isPaused
+  m_EditorClassIdentifier: 
+  Name: isPaused
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &5760749584799001071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shop/20 declined
+  m_EditorClassIdentifier: 
+  Path: event:/Shop/20 declined
+  guid: 97c3676375a3694094418c6df6e572d7
+  Banks:
+  - {fileID: 8318046013009315746}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3039
+--- !u!114 &6005426231448479583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/15 clear
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/15 clear
+  guid: fb91758e504dae4ebeda1ee054cca521
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1184
+--- !u!114 &6121166145711373067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/01 killing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/01 killing enemy
+  guid: f4808a974569eb4ba8161352902e11ad
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1265
+--- !u!114 &6285188624098496207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shop/19 success
+  m_EditorClassIdentifier: 
+  Path: event:/Shop/19 success
+  guid: b8c3cad7e3a9f145a0eaddeb4da1ed7d
+  Banks:
+  - {fileID: 8318046013009315746}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1771
+--- !u!114 &6419032629094225358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/17 low ammo
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/17 low ammo
+  guid: e23c435a1a199144ba0f9323d9847fb8
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &6493955783090580798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/16 low health
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/16 low health
+  guid: 4459ed6505d267409fc2b36f64bbb659
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &6504148406161804035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/00 seeing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/00 seeing enemy
+  guid: d7cd79d9d6d27b41af7afa7fa04f4ca0
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3053
+--- !u!114 &6664591289392841027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guns/Shotgun
+  m_EditorClassIdentifier: 
+  Path: event:/Guns/Shotgun
+  guid: 164b7dcc09da09458ff60de19ab4b3bb
+  Banks:
+  - {fileID: -1435714186412991758}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 658
+--- !u!114 &6766117135350185969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/12 secret
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/12 secret
+  guid: 9412e7e9e6e2614199e81e79a097f8c0
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3500
+--- !u!114 &6848324854368206438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/00 seeing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/00 seeing enemy
+  guid: 93b230c157ae224087a791d5d9e6ba6f
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &7182426782550818609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/AirlockDoor
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/AirlockDoor
+  guid: f4eb7e99e447f048a9bf5a656812a9c9
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1999
+--- !u!114 &7380673201896951928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/13 chest
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/13 chest
+  guid: b583cf8997dfda459aa9d1504d30d5b1
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 975
+--- !u!114 &7439029650043011386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault/03 killing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Assault/03 killing boss
+  guid: d60539f8926ba240b1b97da9f3b54469
+  Banks:
+  - {fileID: -6214409982839876828}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1956
+--- !u!114 &7522978906528956550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 637214571461456425
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7675305134025192277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ancient/levelClear
+  m_EditorClassIdentifier: 
+  Name: levelClear
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7781588377282123312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/12 secret
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/12 secret
+  guid: 13d07ce67346824d9b6677f3871507f3
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1207
+--- !u!114 &7883315414923910592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scout/02 seeing boss
+  m_EditorClassIdentifier: 
+  Path: event:/Scout/02 seeing boss
+  guid: d0b155d8797229479a67c404c49d17c1
+  Banks:
+  - {fileID: -4455452021238157122}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1532
+--- !u!114 &7940009205561811131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Raider/24 player death
+  m_EditorClassIdentifier: 
+  Path: event:/Raider/24 player death
+  guid: d105611d19c385499700cac8d4188b9b
+  Banks:
+  - {fileID: 8174308653994852470}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1024
+--- !u!114 &8174308653994852470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Raider.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Raider.bank
+  Name: Raider
+  StudioPath: bank:/Raider
+  lastModified: 637214571461873067
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8190982251283114761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demolitionist/15 clear
+  m_EditorClassIdentifier: 
+  Path: event:/Demolitionist/15 clear
+  guid: da3b82117b0dad4596f511cb54d44162
+  Banks:
+  - {fileID: -8656615405657479379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &8318046013009315746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Shop.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODProject/Build/Desktop/Shop.bank
+  Name: Shop
+  StudioPath: bank:/Shop
+  lastModified: 637214571463357060
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8438865421734932203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/09 collect sednium
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/09 collect sednium
+  guid: 254b4a9fa976ec4788c0bbee3ebe667b
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1300
+--- !u!114 &9063518460516596070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Commando/00 seeing enemy
+  m_EditorClassIdentifier: 
+  Path: event:/Commando/00 seeing enemy
+  guid: 2b8025f90ce4f64daf1bf09937da9752
+  Banks:
+  - {fileID: 2188533568292140322}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1311
+--- !u!114 &9204087941704223504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/uiSadClick
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/uiSadClick
+  guid: f931d1f85b570743973700f0ccb21ea8
+  Banks:
+  - {fileID: -256157599258009896}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 197
