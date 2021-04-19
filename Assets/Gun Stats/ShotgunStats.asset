@@ -18,7 +18,7 @@ MonoBehaviour:
   bulletHasArc: 0
   bulletSpeed: 4000
   firesInSpread: 1
-  spreadTightness: 497.8
+  spreadTightness: 5647.6
   bulletsInSpread: 8
   recoil: 0
   heatCapacity: 0

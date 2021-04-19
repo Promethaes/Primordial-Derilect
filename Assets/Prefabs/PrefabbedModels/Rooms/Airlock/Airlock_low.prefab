@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 2479800421224257359}
   - component: {fileID: 1391541336868172763}
   - component: {fileID: 8164078558237771665}
-  - component: {fileID: 2381610998323983133}
+  - component: {fileID: 7451184932902542890}
   m_Layer: 0
   m_Name: default
   m_TagString: Terrain
@@ -126,7 +126,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 2647e3c4538b34146ace1f00a2aa5345, type: 3}
---- !u!114 &2381610998323983133
+--- !u!114 &7451184932902542890
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -11,6 +11,7 @@ public class SingleBulletFire : MonoBehaviour
     public Transform bulletStartPosition;
     public List<Transform> bulletSpreadStartPositions = new List<Transform>();
     int bulletKey = 0;
+    int currentAmmo;
 
     //Sounds
     public StudioEventEmitter shootSound;
@@ -18,6 +19,7 @@ public class SingleBulletFire : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentAmmo = gunInfo.ammo;
         //fixed bullet size, can just use object pooling to prevent large
         //instantiation. 10 seems like a decent size
         for (int i = 0; i < 20; i++)
@@ -44,9 +46,12 @@ public class SingleBulletFire : MonoBehaviour
 
     public void Shoot()
     {
-        if (!gameObject.activeSelf || !canFire)
+        if (!gameObject.activeSelf || !canFire || currentAmmo == 0)
             return;
+
         shootSound.Play();
+        currentAmmo--;
+        
         if (gunInfo.firesInSpread)
         {
             //NOTE: negative on the forward vec cause the guns are all backwards

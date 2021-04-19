@@ -56,8 +56,14 @@ public class PlayerManager : MonoBehaviour
     public float yaw = 1.0f;
     public float pitch = 1.0f;
 
+    //Resources
+    float currentHP;
+    float currentShields;
+
     //Sounds
     public StudioEventEmitter footsteps;
+
+    public Checkpoint lastTouchedCheckpoint;
 
     // Start is called before the first frame update
     void Start()
@@ -83,14 +89,53 @@ public class PlayerManager : MonoBehaviour
 
         currentPlayerClass = (PlayerClass)PlayerPrefs.GetInt("Player Class");
         currentClassInfo = classInfo[(int)currentPlayerClass];
+        currentHP = currentClassInfo.maxHP;
+        currentShields = currentClassInfo.maxShields;
 
         SelectPrimary();
     }
 
+    //take damage
+    //maybe add types like peircing, poison, etc.
+    public void TakeDamage(float damage)
+    {
+        if (currentShields > 0.0f)
+        {
+            currentShields -= damage;
+            if (currentShields < 0.0f)
+            {
+                currentHP -= currentShields;
+                currentShields = 0.0f;
+            }
+            //add shield regeneration later
+            Debug.Log("Took shield damage! " + currentShields.ToString() + " / " + currentClassInfo.maxShields.ToString());
+            return;
+        }
+
+        currentHP -= damage;
+        Debug.Log("Took damage! " + currentHP.ToString() + " / " + currentClassInfo.maxHP.ToString());
+
+        if(currentHP <= 0.0f)
+            DieAndReset();
+
+    }
+
+    public void DieAndReset()
+    {
+        pRigidBody.gameObject.transform.position = lastTouchedCheckpoint.transform.position;
+        var enemySpawnPoints = FindObjectsOfType<EnemySpawnPoint>();
+
+        foreach (var spawnPoint in enemySpawnPoints)
+            if (spawnPoint.gameObject.activeSelf)
+                spawnPoint.ResetSpawnPoint();
+
+    }
 
     //weapon select
     public void SelectPrimary()
     {
+        if (weapons[(int)currentPlayerClass][(int)Weapon.Primary].gameObject.activeSelf)
+            return;
         foreach (var weapon in weapons[(int)currentPlayerClass])
             weapon.gameObject.SetActive(false);
 
@@ -99,6 +144,10 @@ public class PlayerManager : MonoBehaviour
     }
     public void SelectSecondary()
     {
+        //cheat code idea: rapid weapon swapping, rapid fire pistol
+        if (weapons[(int)currentPlayerClass][(int)Weapon.Secondary].gameObject.activeSelf)
+            return;
+
         foreach (var weapon in weapons[(int)currentPlayerClass])
             weapon.gameObject.SetActive(false);
 
@@ -106,14 +155,11 @@ public class PlayerManager : MonoBehaviour
         currentActiveWeapon = weapons[(int)currentPlayerClass][(int)Weapon.Secondary];
     }
 
-
-
+    //movement input
     bool playFootsteps = true;
-    //movement
     public void OnMove(InputAction.CallbackContext ctx)
     {
         moveVec = ctx.ReadValue<Vector2>();
-       
     }
     IEnumerator FootstepSounds()
     {
@@ -134,12 +180,12 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+
     bool isShooting = false;
     public void OnShoot(InputAction.CallbackContext ctx)
     {
         float pressed = ctx.ReadValue<float>();
         isShooting = pressed >= 0.5f;
-        Debug.Log(isShooting);
     }
 
     public void OnLook(InputAction.CallbackContext ctx)
@@ -152,6 +198,7 @@ public class PlayerManager : MonoBehaviour
         if (isShooting)
             currentActiveWeapon.Shoot();
 
+        //FPS camera rotation
         pRigidBody.gameObject.transform.RotateAround(pRigidBody.gameObject.transform.position, Vector3.up, mouseVec.x * yaw);
         lookAt.transform.position += new Vector3(0.0f, mouseVec.y * pitch, 0.0f) * Time.deltaTime;
 
@@ -162,11 +209,12 @@ public class PlayerManager : MonoBehaviour
 
         pCamera.transform.LookAt(lookAt.transform);
 
-
-         if (moveVec.magnitude > 0.0f && canJump && playFootsteps)
+        //Sounds
+        if (moveVec.magnitude > 0.0f && canJump && playFootsteps)
             StartCoroutine("FootstepSounds");
     }
 
+    //Movement logic
     private void FixedUpdate()
     {
         var force = pCamera.transform.forward * moveVec.y;
@@ -177,8 +225,6 @@ public class PlayerManager : MonoBehaviour
         var xzVel = pRigidBody.velocity;
         xzVel.y = 0.0f;
         if (xzVel.magnitude > 0.0f)
-        {
             pRigidBody.velocity -= (xzVel / movementFalloffRate);
-        }
     }
 }
